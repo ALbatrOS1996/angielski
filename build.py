@@ -30,7 +30,7 @@ html = bundle(True)
 open(os.path.join(docs, 'index.html'), 'w', encoding='utf-8').write(html)
 manifest = {
     'id': 'angielski-dla-polaka',
-    'name': 'Angielski dla Polaka', 'short_name': 'Angielski', 'lang': 'pl',
+    'name': 'Angielski', 'short_name': 'Angielski', 'lang': 'pl',
     'description': 'Angielski dla Polaków: B1–C2, podróż, archiwum i historia.',
     'start_url': './', 'scope': './', 'display': 'standalone', 'orientation': 'portrait',
     'background_color': '#081a1c', 'theme_color': '#081a1c',
